@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Barbarian</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+
+        h1{
+            margin:20px;
+            text-align:center;
+            color:brown;
+        }
+
+        p{
+            margin:10px;
+            text-align:justify;
+            color:darkmagenta;
+        }
+
+        ol{
+            text-align:left;
+            color:darksalmon;
+        }
+
+        h2{
+            text-align:justify;
+            color:khaki;
+        }
+
+        button{
+            color:blue;
+            margin-top:10px;
+        }
+        .table-border{
+            margin: 20px;
+            padding: 16px;
+            border: 2px solid black;
+            border-collapse: collapse;
+            border-radius: 8px;
+            height:fit-content;
+            width: fit-content; 
+        }
+        thead{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        td{
+         border: 2px solid black;
+         border-collapse: collapse;   
+        }
+        th{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Hello Welcome to Barbarian</h1>
+
+<p>
+BARBARIAN LAUNCHES <u>ADAPTIVE BRAND SOLUTIONS</u> TO MODERNIZE THE BRAND
+EXPERIENCE EXCLUSIVE. THE PRACTICE UNIFIES CREATIVE, TECHNOLOGY AND WORKFLOW
+SERVICES TO MEET EVOLVING CONSUMER EXPECTATIONS <i>DRIVEN BY AI</i> SEARCH AND CHATBOTS.
+</p>
+
+<h2>Barbarian's Culture</h2>
+
+<ol>
+    <li>What is a digital-first culture?</li>
+    <li>What are the benefits of a digital-first culture?</li>
+    <li>Four ways to build a digital-first culture</li>
+    <li>Ready to get started?</li>
+</ol>
+<h3>New joiners</h3>
+<table class="table-border">
+    <thead>
+        <tr>
+            <th>sl.no </th>
+            <th>name</th>
+            <th>role</th>
+        </tr>
+    </thead>
+    <tbody>
+<tr>
+    <td>1</td>
+    <td>srihitha</td>
+    <td>software engineer</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>rani</td>
+    <td>QA</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>mira</td>
+    <td>QA</td>
+</tr>
+    </tbody>
+</table>
+<div>
+    <a href="https://slack.com/intl/en-in/blog/collaboration/four-tips-build-digital-first-culture" target="_blank">
+        hybrid Culture
+    </a>
+</div>
+
+
+<img src="https://mma.prnewswire.com/media/2367335/Barbarian_Logo.jpg" alt="Barbarian_Logo" width="180px" height="90px">
+  
+<form onsubmit="return validateForm()">
+    <h2>Login to Barbarian Portal</h2>
+
+    Name:
+    <input type="text" id="name" placeholder="Name"><br><br>
+
+    Phone:
+    <input type="tel" id="phone" placeholder="Phone Number"><br><br>
+
+    Email:
+    <input type="email" id="email" placeholder="Email"><br><br>
+    language:
+
+    <button type="submit">Submit</button>
+</form>
+<span><footer>
+    <p>&copy; 2026 My Website. All Rights Reserved.</p>
+</footer></span>
+
+<script>
+function validateForm() {
+    let name = document.getElementById("name").value;
+    let phone = document.getElementById("phone").value;
+    let email = document.getElementById("email").value;
+
+    if (name === "" || phone === "" || email === "") {
+        console.log("Please fill all fields.");
+        alert("Please fill all fields")
+    }
+
+    console.log("Login Successful!");
+    alert("Login Successful!");
+    
+}
+</script>
+
+</body>
+</html>
