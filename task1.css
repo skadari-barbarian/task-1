@@ -1,0 +1,55 @@
+body{
+            background-color: aliceblue;
+        }
+
+        h1{
+            margin:20px;
+            text-align:center;
+            color:brown;
+        }
+
+        p{
+            margin:10px;
+            text-align:justify;
+            color:rgb(8, 1, 8);
+        }
+
+        ol{
+            text-align:left;
+            color:darksalmon;
+        }
+
+        h2{
+            text-align:justify;
+            color:khaki;
+        }
+
+        button{
+            color:blue;
+            margin-top:10px;
+        }
+        .table-border{
+            margin: 20px;
+            padding: 16px;
+            border: 2px solid black;
+            border-collapse: collapse;
+            border-radius: 8px;
+            height:fit-content;
+            width: fit-content; 
+        }
+        thead{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        td{
+         border: 2px solid black;
+         border-collapse: collapse;   
+        }
+        th{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        div{
+            background-color: aquamarine;
+            border: 20px;
+        }
