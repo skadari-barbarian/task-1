@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        button{
+            background-color: aqua;
+            color: black;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interest Calculator</title>
+</head>
+
+<body>
+
+    <p>Let us calculate the simple interest</p>
+
+    <button onclick="simple_intrest(5000,1,20)">
+        Calculate
+    </button>
+
+    <p id="result"></p>
+
+    <script>
+        function simple_intrest(principle, rate, time) {
+            let si = (principle * rate * time) / 100;
+
+            document.getElementById("result").innerHTML =
+                "Simple interest is: " + si;
+        }
+    </script>
+
+</body>
+</html>
